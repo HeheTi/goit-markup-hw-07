@@ -1,0 +1,36 @@
+.feature-list {
+  display: flex;
+}
+.feature-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+.feature-list .feature-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+//  Иконки списка преимуществ
+
+.feature-item-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: var(--primary-background-color);
+  margin-bottom: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+.icon-stylе {
+  width: 70px;
+  height: 70px;
+}

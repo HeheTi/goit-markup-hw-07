@@ -1,0 +1,32 @@
+//--------------------------
+@import './utils/variables';
+@import './base/reset';
+@import './base/common';
+@import './base/container';
+@import './utils/hidden';
+@import './components/button';
+//------------HEADER--------------
+@import './layout/header';
+@import './components/logo';
+@import './components/site-nav';
+@import './components/auth-nav';
+// ------------MAIN--------------
+@import './components/section';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/working';
+@import './layout/team';
+@import './components/socials';
+@import './layout/clients';
+// ------------FOOTER--------------
+@import './layout/footer';
+@import './components/address';
+@import './components/join';
+@import './components/distribution';
+// ------------MODAL--------------
+@import './components/backdrop';
+@import './components/modal';
+@import './layout/form';
+// -----------PORTFOLIO-----------
+@import './components/filter';
+@import './components/studio-works';

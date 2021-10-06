@@ -1,0 +1,60 @@
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+.auth-nav .link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: flex;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  justify-content: center;
+  align-items: center;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.mail,
+.smartphone {
+  display: flex;
+  justify-content: center;
+}
+.mail-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.smartphone-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+.mail-icon:hover,
+.mail-icon:focus,
+.smartphone-icon:hover,
+.smartphone-icon:focus {
+  fill: var(--accent-color);
+}
+
+.auth-nav .link:hover .smartphone-icon,
+.auth-nav .link:focus .smartphone-icon,
+.auth-nav .link:hover .mail-icon,
+.auth-nav .link:focus .mail-icon {
+  fill: var(--accent-color);
+}
