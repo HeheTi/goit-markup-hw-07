@@ -13,8 +13,8 @@
   width: 270px;
   border-radius: 0px 0px 4px 4px;
 
-  background-color: var(--primary-white-color);
   text-align: center;
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   &:not(:last-child) {
@@ -22,7 +22,6 @@
   }
 }
 
-/* "Элемент фото с карточки учасника команды */
 .team__image {
   display: block;
   max-width: 100%;
@@ -31,13 +30,14 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* Заголовок в карточке учасника команды */
 .description__title {
-  color: var(--title-text-color);
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 10px;
+
+  color: var(--title-text-color);
 }
 .description__text {
   margin-bottom: 16px;

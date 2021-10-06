@@ -1,0 +1,36 @@
+.work {
+  padding-top: 0px;
+}
+.work-type {
+  display: flex;
+}
+.work-type__item {
+  position: relative;
+  display: block;
+  max-width: 370px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.work-type__image {
+  display: block;
+  max-width: 100%;
+}
+.work-type__text {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  width: 100%;
+
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}

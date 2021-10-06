@@ -1,4 +1,4 @@
-.button {
+.button-portfolio {
   transition: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -19,8 +19,8 @@
   text-align: center;
   cursor: pointer;
 }
-.button:hover,
-.button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
