@@ -1,20 +1,19 @@
 .button {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
-
+  align-items: center;
   min-width: 200px;
   border-radius: 4px;
   border: 0;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  align-items: center;
 
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
   font-family: inherit;
   @include font(16px, 700, 1.88);
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -23,6 +22,7 @@
 }
 .hero__button {
   padding: 10px 32px;
+  margin: 0 auto;
 }
 .send-distribution {
   position: relative;
