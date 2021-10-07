@@ -1,26 +1,25 @@
-.feature-list {
+.advantages {
   display: flex;
 }
-.feature-list-item {
+.advantages__item {
   display: flex;
   flex-direction: column;
   width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.feature-list .feature-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-.feature-list .title {
+
+.advantages__title {
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 700, 1, 14);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 //  Иконки списка преимуществ
 
-.feature-item-icon {
+.advantages__wrapper {
   display: flex;
   width: 270px;
   height: 120px;
@@ -30,7 +29,7 @@
   justify-content: center;
   align-items: center;
 }
-.icon-stylе {
+.advantages__icon {
   width: 70px;
   height: 70px;
 }
