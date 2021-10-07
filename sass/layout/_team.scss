@@ -4,10 +4,10 @@
   text-align: center;
 }
 /* Карточка учасника команды */
-.team__list {
+.team-list {
   display: flex;
 }
-.team__item {
+.team-list__item {
   display: block;
   width: 270px;
   border-radius: 0px 0px 4px 4px;
@@ -21,7 +21,7 @@
   }
 }
 
-.team__image {
+.team-list__image {
   display: block;
   max-width: 100%;
 }
@@ -31,7 +31,7 @@
 }
 .description__title {
   margin-bottom: 10px;
-  @include font(16px, 500 1.19);
+  @include font(16px, 500, 1.19);
 
   color: var(--title-text-color);
 }

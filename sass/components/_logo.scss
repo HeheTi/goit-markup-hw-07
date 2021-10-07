@@ -7,15 +7,15 @@
 
   color: var(--accent-color);
 }
-.navigation__logo {
+.page-header__logo {
   margin-right: 93px;
 }
-.logo--header {
+.logo__wrapper--color-black {
   color: var(--primary-black-color);
 }
-.footer-address__logo {
+.page-footer__logo {
   margin-bottom: 20px;
 }
-.logo--footer {
+.logo__wrapper--color-white {
   color: var(--primary-white-color);
 }

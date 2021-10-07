@@ -12,7 +12,7 @@
 
 .advantages__title {
   color: var(--title-text-color);
-  @include font(14px, 700, 1, 14);
+  @include font(14px, 700, 1.14);
   text-transform: uppercase;
   margin-bottom: 10px;
 }

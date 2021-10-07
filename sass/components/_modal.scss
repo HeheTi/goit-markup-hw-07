@@ -11,7 +11,8 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.btn-close {
+
+.modal__btn-close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,11 +29,11 @@
   border-radius: 50%;
   cursor: pointer;
 }
-.close-icon {
+.btn-close__icon {
   width: 18px;
   height: 18px;
 }
-.modal-title {
+.modal__title {
   margin-bottom: 12px;
   @include font(20px, 700, 1.15);
   text-align: center;
